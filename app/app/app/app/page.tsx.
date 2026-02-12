@@ -1,0 +1,15 @@
+export default function Page() {
+  return (
+    <main style={{ padding: 20 }}>
+      <h1 style={{ marginBottom: 10 }}>SS GPT6 Trade Hub</h1>
+      <p>Welcome to your live Trade Hub app.</p>
+
+      <div style={{ marginTop: 20, display: "grid", gap: 10 }}>
+        <a href="/terminal">📈 Terminal</a>
+        <a href="/signals">🤖 Signals</a>
+        <a href="/watchlist">📋 Watchlist</a>
+        <a href="/status">📡 Status</a>
+      </div>
+    </main>
+  );
+}
