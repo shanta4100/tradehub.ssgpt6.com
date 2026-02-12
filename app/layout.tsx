@@ -1,5 +1,3 @@
-export const metadata = {
-  title: "SS GPT6 Trade Hub",
-  description: "Trade Hub App",
-  icons: { icon: "/icon.png", apple: "/apple-icon.png" },
-};
+<link rel="manifest" href="/manifest.webmanifest" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="theme-color" content="#000000" />
