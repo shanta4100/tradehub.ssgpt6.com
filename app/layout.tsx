@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "SS GPT6 Trade Hub",
-  description: "Golden Icon Trade Hub App",
+  description: "Trade Hub App",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
