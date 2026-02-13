@@ -1,14 +1,8 @@
 export const metadata = {
   title: "SS GPT6 Trade Hub",
   description: "Trade Hub App",
+  icons: {
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/manifest.webmanifest",
 };
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body style={{ margin: 0, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, Arial" }}>
-        {children}
-      </body>
-    </html>
-  );
-}
