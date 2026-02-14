@@ -1,25 +1,20 @@
 {
   "name": "SS GPT6 Trade Hub",
-  "short_name": "Trade Hub",
-  "description": "Official SS GPT6 Trade Hub platform",
+  "short_name": "TradeHub",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
   "icons": [
     {
       "src": "/tradehub-icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "/tradehub-icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     }
   ]
 }
