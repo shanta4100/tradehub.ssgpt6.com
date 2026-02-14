@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/apple-touch-icon.png", "destination": "/public/apple-touch-icon.png" },
+    { "source": "/manifest.webmanifest", "destination": "/public/manifest.webmanifest" }
+  ]
+}
