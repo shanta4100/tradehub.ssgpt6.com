@@ -2,7 +2,6 @@ import "./globals.css";
 
 export const metadata = {
   title: "SS GPT6 Trade Hub",
-  description: "TradeHub Application",
   manifest: "/manifest.webmanifest",
   icons: {
     apple: "/apple-touch-icon.png",
