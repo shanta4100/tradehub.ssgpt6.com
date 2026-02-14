@@ -1,15 +1,19 @@
 {
   "name": "SS GPT6 Trade Hub",
   "short_name": "Trade Hub",
+  "description": "Official SS GPT6 Trade Hub platform.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
     {
       "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
