@@ -1,2 +1,34 @@
-<link rel="manifest" href="/manifest.webmanifest" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+import "./globals.css";
+
+export const metadata = {
+  title: "SS GPT6 Trade Hub",
+  description: "TradeHub Application",
+  manifest: "/manifest.webmanifest",
+  icons: {
+    apple: "/apple-touch-icon.png",
+    icon: [
+      {
+        url: "/tradehub-icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/tradehub-icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
